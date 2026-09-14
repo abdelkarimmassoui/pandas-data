@@ -1,13 +1,13 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import random as rd
 
 
-x = np.array(['eurusd', 'gbpusd','gold'])
-y = np.array([1453,564,873])
-plt.barh(x, y, color='green', height=0.1)
-plt.title('Currency and Commodity Prices')
-plt.xlabel('Price')
-plt.ylabel('Currency/Commodity')
+
+
+#random 
+
+m = np.random.normal(160,5,50)
+plt.hist(m)
 plt.show()
-plt.savefig('chart.png')  # Save as image
