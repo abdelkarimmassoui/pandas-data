@@ -5,9 +5,8 @@ import random as rd
 
 
 
-
 #random 
-
-m = np.random.normal(160,5,50)
-plt.hist(m)
+n = np.array([12,72,99,9])
+plt.pie(n,labels=['us30','eurusd','gbpusd','xauusd'],startangle=0,explode=(0,0.5,0,0),shadow=True)
+plt.legend()
 plt.show()
